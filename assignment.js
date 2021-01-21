@@ -1,3 +1,5 @@
+// https://github.com/UmmeTania/Assignment3
+
 //problem1: kilometerToMeter
 //problem2: budgetCalculator
 //problem3: hotelCost
@@ -57,7 +59,7 @@ function megaFriend(friends) {
         if (typeof friends[i] != "string") {
             return false;
         }
-        if (friends[i].length > element) {
+        else if (friends[i].length > element) {
             var element = friends[i].length;
             var longestName = friends[i];
         }
